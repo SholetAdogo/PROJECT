@@ -1,0 +1,88 @@
+body, h1, h2, h3, p, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: url url(../Downloads/junior-ferreira-7esRPTt38nI-unsplash.jpg);
+    color: white;
+    padding: 10px 20px;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .auth-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #350066;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+  }
+  #hero form input {
+    margin: 10px 5px;
+    padding: 10px;
+  }
+  #hero form button {
+    padding: 10px 20px;
+    background-color: #660050;
+    color: rgba(255, 255, 255, 0.801);
+    border: none;
+    cursor: pointer;
+  }
+  
+  #agents {
+    padding: 50px 20px;
+    background-color: rgb(238, 255, 251);
+  }
+  #agents .products {
+    display: flex;
+    gap: 20px;
+  }
+  .card {
+    background: rgb(255, 255, 255);
+    border: 1px solid #cccccc2f;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  #feedback {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  .review {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 10px;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
